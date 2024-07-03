@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="AafaqLogo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.94615212"
+     inkscape:cx="513.65947"
+     inkscape:cy="525.81396"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g22" />
+  <defs
+     id="defs1">
+    <rect
+       x="271.62651"
+       y="437.56177"
+       width="270.5696"
+       height="116.26037"
+       id="rect17" />
+    <rect
+       x="294.87859"
+       y="456.5862"
+       width="253.659"
+       height="86.666824"
+       id="rect15" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text15"
+       style="white-space:pre;shape-inside:url(#rect15);display:inline;fill:#f9f9f9;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#f9f9f9;fill-opacity:1;stroke-width:0.264583"
+       x="110.45837"
+       y="134.50752"
+       id="text16"><tspan
+         id="tspan16"
+         style="stroke-width:0.264583"
+         sodipodi:role="line"></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text17"
+       style="white-space:pre;shape-inside:url(#rect17);display:inline;fill:#fff3f3;fill-opacity:1" />
+    <g
+       id="g22"
+       transform="translate(-28.276299,10.875499)">
+      <g
+         id="g24"
+         transform="translate(3.361518,7.7117177)">
+        <g
+           id="g23">
+          <text
+             xml:space="preserve"
+             style="font-size:177.153px;fill:currentColor;fill-opacity:1;stroke-width:2.076"
+             x="122.30023"
+             y="185.08382"
+             id="text19"
+             transform="scale(0.83170797,1.2023451)"><tspan
+               sodipodi:role="line"
+               id="tspan19"
+               style="fill:currentColor;fill-opacity:1;stroke-width:2.076"
+               x="122.30023"
+               y="185.08382">آ</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:91.9754px;fill:currentColor;fill-opacity:1;stroke-width:1.07783"
+             x="106.69505"
+             y="168.1783"
+             id="text20"
+             transform="scale(0.95065537,1.0519059)"><tspan
+               sodipodi:role="line"
+               id="tspan20"
+               style="stroke-width:1.07783"
+               x="106.69505"
+               y="168.1783">فا</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:159.971px;fill:currentColor;fill-opacity:1;stroke-width:1.87467"
+             x="80.591362"
+             y="166.38139"
+             id="text21"
+             transform="scale(0.99926763,1.0007329)"><tspan
+               sodipodi:role="line"
+               id="tspan21"
+               style="stroke-width:1.87467"
+               x="80.591362"
+               y="166.38139">ق</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

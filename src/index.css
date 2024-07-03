@@ -1,0 +1,71 @@
+/* Google Fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Tailwind CSS setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset and setup */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #ff69b4; /* Background color of the selection */
+  color: #fff; /* Text color of the selection */
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background-color); /* Default background color */
+  background-image: linear-gradient(var(--grid-color) 0.5px, transparent 1px),
+    linear-gradient(90deg, var(--grid-color) 0.5px, transparent 1px);
+  background-size: 95px 95px; /* Size of the grid squares */
+}
+
+html.light {
+  /* Light theme styles */
+  --background-color: #f0f0f0; /* Light background color */
+  --text-color: #333; /* Light text color */
+  --grid-color: #e6e3e3; /* Light grid color */
+}
+
+html.dark {
+  /* Dark theme styles */
+  --background-color: #222; /* Dark background color */
+  --text-color: #ffffff; /* Dark text color */
+  --grid-color: #2c2c2c; /* Dark grid color */
+}
+
+body {
+  background-color: var(
+    --background-color
+  ); /* Apply dynamic background color */
+  color: var(--text-color); /* Apply dynamic text color */
+}
+
+/* In your CSS file */
+.bullet-line {
+  @apply relative pl-8 mb-8;
+}
+
+.bullet-line::before {
+  content: "";
+  @apply absolute top-0 left-0 w-2 h-2 dark:bg-white bg-black rounded-full;
+}
+
+.bullet-line::after {
+  content: "";
+  @apply absolute top-2 left-1 w-px h-full bg-black dark:bg-white;
+}
+
+.bullet-line:last-child::after {
+  display: block; /* Remove the line for the last item */
+}
