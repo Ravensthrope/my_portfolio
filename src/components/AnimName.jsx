@@ -85,7 +85,7 @@ const AnimName = () => {
   const { themeMode } = useContext(ThemeContext);
 
   return (
-    <div className="mb-12 flex items-start mt-24 md:mt-4">
+    <div className="mb-12 flex items-start mt-4 md:mt-4">
       <div
         className={`text-left mx-4 md:mx-24 font-semibold text-7xl md:text-7xl leading-tight ${
           themeMode === "dark" ? "text-white" : "text-black"

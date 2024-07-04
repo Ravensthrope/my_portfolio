@@ -47,7 +47,9 @@ function App() {
   return (
     <>
       <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-        <MouseFollower />
+        <div className="md:block hidden">
+          <MouseFollower />
+        </div>
         <AnimatePresence mode="wait">
           <motion.div
             key={themeMode}

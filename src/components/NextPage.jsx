@@ -19,7 +19,7 @@ const NextPage = ({ text, link }) => {
     <>
       <Link
         to={link}
-        className="mx-4 md:mx-24 my-4 flex items-center gap-2 text-blue-600 hover:underline dark:text-blue-400"
+        className="mx-4 mb-20 mt-4 md:my-4 md:mx-24 flex items-center gap-2 text-blue-600 hover:underline dark:text-blue-400"
       >
         <span className="text-base">{text}</span>
         <motion.div
