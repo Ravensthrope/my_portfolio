@@ -70,3 +70,7 @@ body {
 .bullet-line:last-child::after {
   display: block; /* Remove the line for the last item */
 }
+
+/* index.css */
+
+/* Mouse Follower Styles */

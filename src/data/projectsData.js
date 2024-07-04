@@ -3,7 +3,7 @@ export const Projects = [
   {
     id: 1,
     title: "ProXego",
-    projectImg: "",
+    projectImg: "/ProXego.PNG",
     description:
       "A Team Collaborative tool used for creating teams, maintaining projects, creating and assigning tasks to team members integrated chatting system",
     technologies: ["Reactjs", "Node.js", "Express", "MongoDB", "Socket.io"],

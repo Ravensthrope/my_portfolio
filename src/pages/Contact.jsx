@@ -19,7 +19,11 @@ const Contact = () => {
               aafaqsayed09@gmail.com
             </span>
           </p>
-          <form action="" className="flex flex-col gap-4 w-full max-w-lg mt-4">
+          <form
+            action="https://getform.io/f/wbrkkkra"
+            method="POST"
+            className="flex flex-col gap-4 w-full max-w-lg mt-4"
+          >
             <input
               type="text"
               placeholder="Name"
