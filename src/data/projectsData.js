@@ -12,9 +12,9 @@ export const Projects = [
   {
     id: 2,
     title: "GovJobsSafar",
-    projectImg: "",
+    projectImg: "/GovJobsSafari.svg",
     description:
-      "An informational source for availability of Government jobs in India",
+      "GovJobsSafar leverages Python and BeautifulSoup4 to masterfully scrape real-time government job listings from multiple sites. The dynamic data is showcased through an elegant React.js frontend, powered by a high-performance Node.js and Express backend, and managed in a cutting-edge MongoDB database.",
     technologies: [
       "Python",
       "BeautifulSoup4",
@@ -31,7 +31,7 @@ export const Projects = [
     projectImg:
       "https://github.com/Ravensthrope/Verse-Guide/blob/aafaqs/frontend/project-img/example-1.PNG?raw=true",
     description:
-      "A Quranic Verse recommendation system based on users current mood. It detects users mood using camera and provides heart-touching Quranic verses",
+      "VerseGuide a Quranic verse recommendation system that detects your mood via camera and delivers heart-touching verses. Powered by Python, Streamlit, and WebRTC, with MongoDB for data management and Numpy for advanced processing.",
     technologies: ["Python", "Streamlit", "WebRTC", "MongoDB", "Numpy"],
     githubURL: "https://github.com/Ravensthrope/Verse-Guide",
   },

@@ -42,6 +42,7 @@ function App() {
 
   React.useEffect(() => {
     window.scrollTo(0, 0);
+    console.log("Scrolling to top");
   }, [location]);
 
   return (

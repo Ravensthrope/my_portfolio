@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project, isLarge }) => {
   const overlayVariants = {
-    initial: { y: 200 },
+    initial: { y: 225 },
     hover: { y: 0 },
   };
 
@@ -50,7 +50,7 @@ const ProjectCard = ({ project, isLarge }) => {
             {project.technologies.map((technology) => (
               <span
                 key={technology}
-                className="bg-gray-500 text-slate-300 dark:text-white px-3 py-1 rounded-lg text-md"
+                className="bg-gray-800 text-slate-300 dark:text-white px-3 py-1 rounded-lg text-sm min-w-fit"
               >
                 {technology}
               </span>
