@@ -14,7 +14,7 @@ export const Projects = [
     title: "GovJobsSafar",
     projectImg: "/GovJobsSafari.svg",
     description:
-      "GovJobsSafar leverages Python and BeautifulSoup4 to masterfully scrape real-time government job listings from multiple sites. The dynamic data is showcased through an elegant React.js frontend, powered by a high-performance Node.js and Express backend, and managed in a cutting-edge MongoDB database.",
+      "GovJobsSafar leverages Python and BeautifulSoup4 to masterfully scrape real-time government job listings from multiple sites.",
     technologies: [
       "Python",
       "BeautifulSoup4",
