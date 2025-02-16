@@ -46,57 +46,59 @@ function App() {
     <>
       <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
         {/* Place MouseFollower outside AnimatePresence but inside ThemeProvider */}
-        <div className="md:block hidden">
-          <MouseFollower />
-        </div>
+        <div className="min-h-screen pb-0.5">
+          <div className="md:block hidden">
+            <MouseFollower />
+          </div>
 
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={themeMode}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className={`app-container ${themeMode}`}
-          >
-            <Navbar currentPath={location.pathname} />
-            <Routes location={location} key={location.pathname}>
-              <Route
-                path="/"
-                element={
-                  <PageWrapper>
-                    <Home />
-                  </PageWrapper>
-                }
-              />
-              <Route
-                path="/project"
-                element={
-                  <PageWrapper>
-                    <Project />
-                  </PageWrapper>
-                }
-              />
-              <Route
-                path="/contact"
-                element={
-                  <PageWrapper>
-                    <Contact />
-                  </PageWrapper>
-                }
-              />
-              <Route
-                path="/about"
-                element={
-                  <PageWrapper>
-                    <About />
-                  </PageWrapper>
-                }
-              />
-            </Routes>
-            <Socials />
-          </motion.div>
-        </AnimatePresence>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={themeMode}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5 }}
+              className={`app-container ${themeMode}`}
+            >
+              <Navbar currentPath={location.pathname} />
+              <Routes location={location} key={location.pathname}>
+                <Route
+                  path="/"
+                  element={
+                    <PageWrapper>
+                      <Home />
+                    </PageWrapper>
+                  }
+                />
+                <Route
+                  path="/project"
+                  element={
+                    <PageWrapper>
+                      <Project />
+                    </PageWrapper>
+                  }
+                />
+                <Route
+                  path="/contact"
+                  element={
+                    <PageWrapper>
+                      <Contact />
+                    </PageWrapper>
+                  }
+                />
+                <Route
+                  path="/about"
+                  element={
+                    <PageWrapper>
+                      <About />
+                    </PageWrapper>
+                  }
+                />
+              </Routes>
+              <Socials />
+            </motion.div>
+          </AnimatePresence>
+        </div>
       </ThemeProvider>
     </>
   );
