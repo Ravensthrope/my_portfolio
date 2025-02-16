@@ -8,8 +8,6 @@ import { AnimatePresence, motion } from "framer-motion";
 function App() {
   const location = useLocation();
   const [themeMode, setThemeMode] = useState("light");
-  // const { themeMode, lightTheme, darkTheme } = useTheme();
-  console.log(`Current theme mode in App: ${themeMode}`);
 
   const darkTheme = () => {
     setThemeMode("dark");
@@ -42,15 +40,16 @@ function App() {
 
   React.useEffect(() => {
     window.scrollTo(0, 0);
-    console.log("Scrolling to top");
   }, [location]);
 
   return (
     <>
       <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+        {/* Place MouseFollower outside AnimatePresence but inside ThemeProvider */}
         <div className="md:block hidden">
           <MouseFollower />
         </div>
+
         <AnimatePresence mode="wait">
           <motion.div
             key={themeMode}
