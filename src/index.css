@@ -51,6 +51,20 @@ body {
   color: var(--text-color); /* Apply dynamic text color */
 }
 
+/* Mouse follower optimizations */
+.mouse-follower {
+  will-change: transform, width, height, border-color, box-shadow;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  contain: layout style paint;
+}
+
 /* In your CSS file */
 .bullet-line {
   @apply relative pl-8 mb-8;
